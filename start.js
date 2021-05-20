@@ -20,4 +20,4 @@ const products = [
   }
 ]
 
-LogisticInfo()
+LogisticInfo(products)
