@@ -7,7 +7,7 @@ class Product {
   String name;
   List<String> slas;
 
-  Product({this.id, this.name, this.slas});
+  Product({required this.id, required this.name, required this.slas});
 }
 
 void main() {
