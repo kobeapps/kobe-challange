@@ -31,15 +31,18 @@ Em um e-commerce, é muito comum que em um mesmo pedido, existam diferentes form
 ```
 
 #### Saída esperada:
-```txt
-Entrega Agendada:
-- Camisa Polo
-
-Entrega Correios:
-- Camisa Polo
-- Calça jeans
-
-Retirada em loja:
-- Calça jeans
-- Vestido
+```json
+{
+  "Entrega Agendada": [
+    "Camisa Polo"
+  ],
+  "Entrega Correios": [
+    "Camisa Polo",
+    "Calça jeans"
+  ],
+  "Retirada em loja": [
+    "Calça jeans",
+    "Vestido"
+  ]
+}
 ```
