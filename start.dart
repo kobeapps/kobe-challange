@@ -7,7 +7,11 @@ class Product {
   String name;
   List<String> slas;
 
-  Product({required this.id, required this.name, required this.slas});
+  Product({
+    required this.id, 
+    required this.name, 
+    required this.slas,
+  });
 }
 
 void main() {
@@ -15,12 +19,18 @@ void main() {
     Product(
         id: "1234",
         name: "Camisa polo",
-        slas: ["Entrega Agendada", "Entrega Correios"]),
+        slas: ["Entrega Agendada", "Entrega Correios"],
+    ),
     Product(
         id: "567",
         name: "Calça jeans",
-        slas: ["Entrega Correios", "Retirada em loja"]),
-    Product(id: "890", name: "Vestido", slas: ["Retirada em loja"])
+        slas: ["Entrega Correios", "Retirada em loja"],
+    ),
+    Product(
+        id: "890",
+        name: "Vestido", 
+        slas: ["Retirada em loja"],
+    )
   ];
   LogisticInfo(products);
 }
