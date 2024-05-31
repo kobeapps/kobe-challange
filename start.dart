@@ -30,7 +30,12 @@ void main() {
         id: "890",
         name: "Vestido", 
         slas: ["Retirada em loja"],
-    )
+    ),
+    Product(
+        id: "098",
+        name: "Bermuda", 
+        slas: ["Entrega Agendada"],
+    ),
   ];
   LogisticInfo(products);
 }
